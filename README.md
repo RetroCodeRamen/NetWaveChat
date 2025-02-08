@@ -1,4 +1,3 @@
-```markdown
 # NetWaveChat
 
 NetWaveChat is a Lua‑based chat server designed for real‑time messaging among multiple users. Due to client platform restrictions, **all interactions are performed via HTTPS GET requests**. Every command is specified in the URL path, and each parameter is limited to 200 characters. To avoid URL space restrictions, clients must replace spaces with the tilde character (`~`) when sending text.
